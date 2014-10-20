@@ -1,0 +1,49 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>我是摄影师，我要注册</title>
+  <link rel="stylesheet" type="text/css" href="./res/css/reset.css" /> 
+  <link rel="stylesheet" type="text/css" href="./res/css/main.css" />  
+  <script src="./res/js/jquery-1.10.2.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('.reg-model-title').mouseenter(function(){
+        $('.reg-model-content').css('display','block');
+        $('.reg-grapher-content').css('display','none');
+    });
+
+      $('.reg-grapher-title').mouseenter(function(){
+          $('.reg-model-content').css('display','none');
+          $('.reg-grapher-content').css('display','block');
+      });
+    });
+  </script>
+
+</head>
+<body>
+
+
+<div class="reg">
+<div class="reg-model-title">我是模特</div>
+<div class="reg-grapher-title">我是摄影师</div>
+<div class="reg-model-content">
+请输入您的注册信息111
+
+
+
+</div>
+<div class="reg-grapher-content">
+请输入您的注册信息222
+
+
+
+</div>
+
+
+
+
+</div>
+
+  
+</body>
+</html>

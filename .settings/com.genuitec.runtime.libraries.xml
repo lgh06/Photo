@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project adv-config="true">
+  <add-on id="web.struts2.spring"/>
+  <add-on id="hibernate.emanager"/>
+  <add-on id="spring.web"/>
+  <add-on id="hibernate.extra"/>
+  <container path="com.genuitec.runtime.library/com.genuitec.hibernate_3.3">
+    <disable name="jboss-cache-1.4.1.GA.jar" type="jar"/>
+    <disable name="jbosscache-core-3.1.0.GA.jar" type="jar"/>
+    <disable name="oscache-2.1.jar" type="jar"/>
+    <disable name="proxool-0.8.3.jar" type="jar"/>
+    <disable name="swarmcache-1.0RC2.jar" type="jar"/>
+  </container>
+  <container path="com.genuitec.runtime.library/com.genuitec.spring_3.0">
+    <disable name="com.springsource.org.codehaus.jackson.mapper-1.0.0.jar" type="jar"/>
+    <forced-facet id="me.hibernate" version="3.3"/>
+  </container>
+</project>
